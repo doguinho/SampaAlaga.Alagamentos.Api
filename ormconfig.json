@@ -1,0 +1,8 @@
+{
+  "type": "mongodb",
+  "host": "localhost",
+  "port": 27017,
+  "database": "sampa_alaga",
+  "useUnifiedTopology": true,
+  "useNewUrlParser": true
+}
