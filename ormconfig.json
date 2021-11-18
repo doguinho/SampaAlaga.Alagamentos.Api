@@ -4,5 +4,10 @@
   "port": 27017,
   "database": "sampa_alaga",
   "useUnifiedTopology": true,
-  "useNewUrlParser": true
+  "useNewUrlParser": true,
+  "entities":["src/database/entities/*.ts"],
+  "cli": {
+    "migrationsDir": "src/database/migrations",
+    "entitiesDir":"src/database/entities"
+  }
 }
